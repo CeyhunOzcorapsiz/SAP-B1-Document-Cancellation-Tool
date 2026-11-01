@@ -5,21 +5,36 @@
 A desktop application for listing, reviewing and cancelling SAP Business One documents in batches, with closure for supported document types.
 
 - English and Turkish interface
-- 23 document types
-- Pre-checks and document details
+- 23 document types, pre-checks and document details
 - Import document numbers from files or the clipboard
 - Excel export and operation logs
 
-This repository presents the application and its screenshots. Source code is not distributed here. Screenshots contain sample data.
+This repository contains only an application overview and screenshots. Source code is not distributed here. Screenshots use sample data.
 
-## Main screen
+![Main screen](images/en/overview.png)
 
-![Document list](images/en/overview.png)
+## Document types
 
-## Document details
+| Area | Supported documents |
+| --- | --- |
+| Sales | A/R invoices, credit memos, down payment invoices, deliveries, returns, sales orders, quotations |
+| Purchasing | A/P invoices, credit memos, down payment invoices, goods receipt POs, goods returns, purchase orders, quotations |
+| Inventory | Goods receipts, goods issues, inventory transfers |
+| Finance | Incoming payments, outgoing payments, journal entries, internal reconciliations |
+| Other | Production orders, draft documents |
 
-![Document details](images/en/document-details.png)
+## Screen gallery
 
-## Pre-check
+Click an image to view it at full size.
 
-![Pre-check and confirmation](images/en/precheck.png)
+| Login | Settings |
+| --- | --- |
+| ![Login screen](images/en/login.png) | ![Settings screen](images/en/settings.png) |
+
+| Document types | Document details |
+| --- | --- |
+| ![23 document types](images/en/document-types.png) | ![Document details](images/en/document-details.png) |
+
+| Pre-check and confirmation | Help |
+| --- | --- |
+| ![Pre-check](images/en/precheck.png) | ![Help screen](images/en/help.png) |
